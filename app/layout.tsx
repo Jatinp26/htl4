@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} antialiased`}>
+      <body className={`${poppins.className} antialiased bg-[#020202]`}>
         <Header />
         {/* Remove margin from the full page and apply it only after hero */}
         <div className="w-full">{children}</div>

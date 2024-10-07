@@ -12,6 +12,8 @@ const config: Config = {
       backgroundImage: {
         "custom-gradient":
           "linear-gradient(91deg, rgba(0, 0, 0, 0.40) 2.13%, rgba(0, 0, 0, 0.20) 97.87%)",
+        "gradient-text":
+          "linear-gradient(87deg, #A962FF 26.43%, #2DB8EA 64.07%)",
         "gradient-text-1":
           "linear-gradient(268deg, #19FB9B -3.56%, #F3EC40 15.21%, #A962FF 77.78%)",
         "gradient-2": "linear-gradient(86deg, #A962FF 0.23%, #2DB8EA 99.77%)",
