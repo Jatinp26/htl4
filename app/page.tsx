@@ -1,8 +1,8 @@
 import { Button } from "@/components/Button";
 import Image from "next/image";
 import BgImage from "@/public/images/Background_Image.webp"
-import AboutImage from "@/public/images/About_Image.png"
-import DevImage from "@/public/images/Developer_Image.png"
+import AboutImage from "@/public/images/About_Image.webp"
+import DevImage from "@/public/images/Developer_Image.webp"
 import Section from "@/components/common/Section";
 import { UserGroupIcon, CodeIcon, Folder03Icon, EarthIcon } from 'hugeicons-react';
 
