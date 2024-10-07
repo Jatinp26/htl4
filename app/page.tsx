@@ -1,8 +1,17 @@
 import { Button } from "@/components/Button";
+import Image from "next/image";
+import BgImage from "@/public/images/Background_Image.webp"
 
 export default function Home() {
   return (
-    <div className="relative h-screen w-full bg-cover bg-center bg-custom-image ">
+    <div className="h-screen w-full">
+      <Image src={BgImage}
+        priority
+        objectFit="cover"
+        objectPosition="center"
+        className="-z-10 absolute size-full"
+        alt="Background Image"
+      />
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-center gap-2 h-full">
         <p className="text-white text-[10px] sm:text-xs lg:text-sm px-3 py-px bg-opacity-10 bg-white rounded-full">✨ Prepare to Build Beyond, Coming Soon!</p>
