@@ -20,7 +20,7 @@ const AboutSection = () => {
                         </div>
                         <div className="flex flex-col gap-1">
                             <h3 className="text-violet-600 text-xl sm:text-xl lg:text-2xl font-semibold">About Hack The League</h3>
-                            <p className="text-white text-xs sm:text-xs lg:text-sm ">
+                            <p className="text-white text-[10px] sm:text-xs lg:text-sm ">
                                 Hack The League envisions the empowering combination of technology and opportunities to generate practical solutions for real-world problems and produce an ever-increasing impact. HTL 1.0 witnessed 2200+ members, 180+ projects, 10+ workshops and sessions and increased professional creativity and self-expression by using the most innovative and modern technological solutions with the spirit of impact driven community.
                             </p>
                         </div>
