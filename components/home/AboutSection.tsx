@@ -32,6 +32,8 @@ const AboutSection = () => {
                         layout="responsive"
                         width={500}
                         height={300}
+                        quality={75}
+                        placeholder="blur"
                     />
                 </div>
                 {/* Stats Section */}
@@ -45,6 +47,8 @@ const AboutSection = () => {
                                 layout="responsive"
                                 width={500}
                                 height={300}
+                                quality={75}
+                                placeholder="blur"
                             />
                             <div className="absolute inset-0 bg-black bg-opacity-70 rounded-xl sm:rounded-2xl lg:rounded-3xl"></div>
                         </div>
