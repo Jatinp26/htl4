@@ -9,9 +9,8 @@ export default function Home() {
       {/* Background Image */}
       <Image src={BgImage}
         priority
-        objectFit="cover"
-        objectPosition="center"
-        className="-z-10 absolute h-screen"
+        layout="responsive"
+        className="-z-10 absolute"
         alt="Background Image"
       />
       {/* Sections */}

@@ -1,6 +1,5 @@
-// HeroSection.tsx
 import { Button } from "@/components/Button";
-import { heroData } from "@/data/data"; // Import hero data
+import { heroData } from "@/data/data";
 
 const HeroSection = () => (
     <div className="flex flex-col items-center justify-center gap-2 h-full">
