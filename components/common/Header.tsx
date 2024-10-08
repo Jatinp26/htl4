@@ -22,11 +22,15 @@ export default function Header() {
     const NavItems = [
         {
             name: "Home",
-            href: "/",
+            href: "#home",
         },
         {
             name: "About Us",
             href: "#aboutus",
+        },
+        {
+            name: "Legacy",
+            href: "#legacy",
         },
         {
             name: "Partners",
@@ -41,7 +45,9 @@ export default function Header() {
 
         <header className="fixed top-0 left-0 right-0 flex bg-custom-gradient backdrop-blur-10 z-50 w-full py-3 sm:py-4 lg:py-6 px-5 sm:px-10 lg:px-20">
             <div className="flex justify-between w-full items-center">
-                <Image src={Logo} width={50} alt="Hack The League Logo" className="pointer-events-none" />
+                <Link href="/">
+                    <Image src={Logo} width={50} alt="Hack The League Logo" className="cursor-pointer" />
+                </Link>
                 <div className="hidden fixed right-0 mx-5 max-sm:block">
                     <Sheet
                         open={open}

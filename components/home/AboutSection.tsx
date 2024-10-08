@@ -7,7 +7,7 @@ import Section from "@/components/common/Section";
 
 const AboutSection = () => {
     return (
-        <Section id="#aboutus">
+        <Section id="aboutus">
             <h2 className="text-white text-center font-semibold text-2xl sm:text-4xl lg:text-4xl mb-6 sm:mb-12 lg:mb-12">
                 Join a <span className="bg-gradient-text bg-clip-text text-transparent">Community</span> of Web3 & AI Devs across the Globe
             </h2>

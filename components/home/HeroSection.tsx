@@ -2,7 +2,7 @@ import { Button } from "@/components/Button";
 import { heroData } from "@/data/data";
 
 const HeroSection = () => (
-    <div className="flex flex-col items-center justify-center gap-2 h-full">
+    <div id="home" className="flex flex-col items-center justify-center gap-2 h-full">
         <p className="text-white text-[10px] sm:text-xs lg:text-sm px-3 py-px bg-opacity-10 bg-white rounded-full">
             {heroData.subtitle}
         </p>
