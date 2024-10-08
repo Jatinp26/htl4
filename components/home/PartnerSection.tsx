@@ -26,15 +26,15 @@ export default function PartnerSection() {
             <h2 className="text-white text-center font-semibold text-2xl sm:text-4xl lg:text-4xl mb-6 sm:mb-12 lg:mb-12">
                 Supported by <span className="bg-gradient-text bg-clip-text text-transparent">Partners</span> Across the Space
             </h2>
-            <div className="grid justify-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="flex flex-wrap justify-center gap-3 sm:gap-3 lg:gap-6">
                 {partners.map((partner, index) => (
                     <div key={index} className="flex items-center justify-center w-[302px] h-[151px] border border-[#2c2c2c] bg-opacity-10 rounded-lg">
                         <Image
                             src={partner.src}
                             alt={partner.alt}
-                            width={120}  // Adjust based on logo dimensions
-                            height={32}  // Adjust based on logo dimensions
-                            className=" pointer-events-none grayscale"
+                            width={120}
+                            height={32}
+                            className="pointer-events-none grayscale"
                         />
                     </div>
                 ))}
