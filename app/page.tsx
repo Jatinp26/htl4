@@ -1,8 +1,9 @@
 import Image from "next/image";
-import BgImage from "@/public/images/Background_Image.webp"
+import BgImage from "@/public/images/hero/Background_Image.webp"
 import HeroSection from "@/components/home/HeroSection";
 import AboutSection from "@/components/home/AboutSection";
 import LegacySection from "@/components/home/LegacySection";
+import PartnerSection from "@/components/home/PartnerSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <LegacySection />
+      <PartnerSection />
     </div>
   );
 }
