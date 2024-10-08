@@ -2,6 +2,7 @@ import Image from "next/image";
 import BgImage from "@/public/images/Background_Image.webp"
 import HeroSection from "@/components/home/HeroSection";
 import AboutSection from "@/components/home/AboutSection";
+import LegacySection from "@/components/home/LegacySection";
 
 export default function Home() {
   return (
@@ -9,13 +10,14 @@ export default function Home() {
       {/* Background Image */}
       <Image src={BgImage}
         priority
-        layout="responsive"
-        className="-z-10 absolute"
+        layout="fill"
+        className="-z-10 absolute h-screen"
         alt="Background Image"
       />
       {/* Sections */}
       <HeroSection />
       <AboutSection />
+      <LegacySection />
     </div>
   );
 }
