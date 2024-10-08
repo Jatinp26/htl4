@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { CodeIcon, EarthIcon, Folder03Icon, UserGroupIcon, } from "hugeicons-react";
-import AboutImage from "@/public/images/About_Image.webp";
-import DevImage from "@/public/images/Developer_Image.webp"
+import AboutImage from "@/public/images/about/About_Image.webp";
+import DevImage from "@/public/images/about/Developer_Image.webp"
 import Section from "@/components/common/Section";
 
 
