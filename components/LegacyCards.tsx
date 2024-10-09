@@ -46,7 +46,7 @@ export default function LegacyCards() {
                                     className="rounded-xl max-sm:rounded-md "
                                 />
                             </div>
-                            <div className="flex flex-col items-center justify-center w-full bg-[#2c2c2c] h-1/2 max-sm:rounded-md rounded-lg shadow-lg">
+                            <div className="flex flex-col items-center justify-center w-full border-[#2c2c2c] border bg-[#121212] h-1/2 max-sm:rounded-md rounded-lg shadow-lg">
                                 <h3 className="max-sm:text-2xl text-4xl font-semibold text-blue-400 text-center">
                                     {event.title}
                                 </h3>

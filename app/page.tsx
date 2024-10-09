@@ -4,6 +4,7 @@ import HeroSection from "@/components/home/HeroSection";
 import AboutSection from "@/components/home/AboutSection";
 import LegacySection from "@/components/home/LegacySection";
 import PartnerSection from "@/components/home/PartnerSection";
+import PresenceSection from "@/components/home/PresenceSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <LegacySection />
+      <PresenceSection />
       <PartnerSection />
     </div>
   );
