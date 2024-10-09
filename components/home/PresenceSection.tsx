@@ -13,7 +13,7 @@ export default function PresenceSection() {
                 <div className="flex flex-col lg:flex-row gap-6 max-sm:gap-3 w-full">
                     {/* Collab Section */}
                     <div className="flex flex-col gap-6 rounded-xl border border-[#2c2c2c] p-3 sm:rounded-2xl sm:p-3 lg:rounded-3xl lg:p-6 w-full lg:w-2/3">
-                        <div>
+                        <div className="flex flex-col gap-2 lg:gap-4">
                             <div className="rounded-full bg-white bg-opacity-10 p-2 w-fit sm:p-2 lg:p-3">
                                 <Agreement02Icon size={28} className="h-fit w-6 sm:w-6 lg:w-7" color="#A962FF" />
                             </div>
@@ -29,7 +29,7 @@ export default function PresenceSection() {
                     {/* Number Section */}
                     <div className="rounded-xl border border-[#2c2c2c] p-3 sm:rounded-2xl sm:p-3 lg:rounded-3xl lg:p-6 w-full lg:w-1/3">
                         <div className="flex flex-col gap-2">
-                            <div>
+                            <div className="flex flex-col gap-2 lg:gap-4">
                                 <div className="rounded-full bg-white bg-opacity-10 p-2 w-fit sm:p-2 lg:p-3">
                                     <ChartIncreaseIcon size={28} className="h-fit w-6 sm:w-6 lg:w-7" color="#19FB9B" />
                                 </div>
@@ -60,7 +60,7 @@ export default function PresenceSection() {
                 </div>
                 <div className="flex flex-col lg:flex-row gap-6 max-sm:gap-3 w-full">
                     {/* Global Section */}
-                    <div className="rounded-xl border border-[#2c2c2c] p-3 sm:rounded-2xl sm:p-3 lg:rounded-3xl lg:p-6 w-full lg:w-1/3">
+                    <div className="rounded-xl flex flex-col gap-2 md:gap-4 border border-[#2c2c2c] p-3 sm:rounded-2xl sm:p-3 lg:rounded-3xl lg:p-6 w-full lg:w-1/3">
                         <div className="rounded-full bg-white bg-opacity-10 p-2 w-fit sm:p-2 lg:p-3">
                             <EarthIcon size={28} className="h-fit w-6 sm:w-6 lg:w-7" color="#2DB8EA" />
                         </div>
@@ -73,7 +73,7 @@ export default function PresenceSection() {
                     </div>
                     {/* Glimpse Section */}
                     <div className="rounded-xl border border-[#2c2c2c] p-3 sm:rounded-2xl sm:p-3 lg:rounded-3xl lg:p-6 gap-6 w-full lg:w-2/3">
-                        <div>
+                        <div className="flex flex-col gap-2 md:gap-4">
                             <div className="rounded-full bg-white bg-opacity-10 p-2 w-fit sm:p-2 lg:p-3">
                                 <Camera01Icon size={28} className="h-fit w-6 sm:w-6 lg:w-7" color="#f3ec40" />
                             </div>
