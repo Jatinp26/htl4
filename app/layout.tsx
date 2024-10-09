@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "../components/common/Header";
+import Footer from "@/components/common/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -20,10 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} antialiased bg-[#020202]`}>
+      <body className={`${poppins.className} antialiased min-h-screen flex flex-col justify-between bg-[#020202]`}>
         <Header />
         {/* Remove margin from the full page and apply it only after hero */}
         <div className="w-full">{children}</div>
+        <Footer />
       </body>
     </html>
   );

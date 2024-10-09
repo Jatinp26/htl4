@@ -8,7 +8,7 @@ import PresenceSection from "@/components/home/PresenceSection";
 
 export default function Home() {
   return (
-    <div className="h-screen w-full">
+    <div className=" w-full">
       {/* Background Image */}
       <Image src={BgImage}
         priority
