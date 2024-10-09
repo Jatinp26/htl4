@@ -48,7 +48,7 @@ export default function Header() {
                 <Link href="/">
                     <Image src={Logo} width={50} alt="Hack The League Logo" className="cursor-pointer" />
                 </Link>
-                <div className="hidden fixed right-0 mx-5 max-sm:block">
+                <div className="lg:hidden fixed right-0 mx-5 block">
                     <Sheet
                         open={open}
                         onOpenChange={
@@ -84,7 +84,7 @@ export default function Header() {
                         </SheetContent>
                     </Sheet>
                 </div>
-                <nav className="p-4 max-sm:hidden  flex gap-5 list-none">
+                <nav className="p-4 hidden lg:flex gap-5 list-none">
                     {NavItems.map((item, index) => (
                         <div key={item.name}>
                             <Link
