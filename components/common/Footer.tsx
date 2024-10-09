@@ -25,10 +25,10 @@ export default function Footer() {
             <div className="flex flex-col md:flex-row w-full md:justify-between items-center md:items-start gap-6 z-10">
                 {/* Left Section */}
                 <div className="flex flex-col max-sm:items-center">
-                    <h2 className="text-6xl text-white" style={{ fontFamily: "JUSTICE_LEAGUE" }}>
+                    <h2 className="text-5xl lg:text-6xl text-white" style={{ fontFamily: "JUSTICE_LEAGUE" }}>
                         HACK THE LEAGUE
                     </h2>
-                    <p className="text-xl text-white">Go beyond your limits.</p>
+                    <p className="text-base lg:text-xl text-white">Go beyond your limits.</p>
                 </div>
 
                 {/* Right Section */}
@@ -49,8 +49,8 @@ export default function Footer() {
 
                     {/* Explore Section */}
                     <div className="flex flex-col">
-                        <h3 className="font-semibold text-white text-xl mb-2">Explore</h3>
-                        <ul className="text-sm space-y-1">
+                        <h3 className="font-semibold text-white max-sm:text-right text-xl mb-2">Explore</h3>
+                        <ul className="text-sm max-sm:text-right space-y-1">
                             {exploreLinks.map((link) => (
                                 <li key={link.name}>
                                     <a href={link.href} className="text-white text-xs hover:text-gray-400" aria-label={link.name}>
