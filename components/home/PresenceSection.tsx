@@ -20,7 +20,7 @@ export default function PresenceSection() {
                             <div className="flex flex-col gap-1">
                                 <h2 className="text-violet-600 font-semibold text-2xl sm:text-3xl lg:text-3xl">Collaborated with Various Events</h2>
                                 <p className="text-white text-[10px] sm:text-xs lg:text-xs">
-                                    We’ve partnered with leading global events like DEVCON, WebX 2024, DAO Tokyo, and many more, driving innovation in decentralized technologies.
+                                    We&apos;ve partnered with leading global events like DEVCON, WebX 2024, DAO Tokyo, and many more, driving innovation in decentralized technologies.
                                 </p>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ export default function PresenceSection() {
                                 <div className="flex flex-col gap-1">
                                     <h2 className="text-[#19FB9B] font-semibold text-2xl sm:text-3xl lg:text-3xl">Increase in Numbers</h2>
                                     <p className="text-white text-[10px] sm:text-xs lg:text-xs">
-                                        These numbers reflect our expanding influence, global reach, and the trust we've built within the community and industry.
+                                        These numbers reflect our expanding influence, global reach, and the trust we&apos;ve built within the community and industry.
                                     </p>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@ export default function PresenceSection() {
                             <div className="rounded-full bg-white bg-opacity-10 p-2 w-fit sm:p-2 lg:p-3">
                                 <Camera01Icon size={28} className="h-fit w-6 sm:w-6 lg:w-7" color="#f3ec40" />
                             </div>
-                            <h2 className="text-[#f3ec40] font-semibold text-2xl sm:text-3xl lg:text-3xl">Collaborated with Various Events</h2>
+                            <h2 className="text-[#f3ec40] font-semibold text-2xl sm:text-3xl lg:text-3xl">Glimpse from the Events</h2>
                         </div>
                         <EventGlimpseSlider />
                     </div>
