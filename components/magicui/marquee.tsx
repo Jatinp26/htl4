@@ -1,4 +1,5 @@
-import { cn } from "@/lib/utils";
+import React from "react";
+import { cn } from "../../lib/utils";
 
 interface MarqueeProps {
   className?: string;
@@ -28,7 +29,7 @@ export default function Marquee({
           "flex-row": !vertical,
           "flex-col": vertical,
         },
-        className,
+        className
       )}
     >
       {Array(repeat)
