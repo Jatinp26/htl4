@@ -36,7 +36,7 @@ export default function LegacyCards() {
   return (
     <div>
       {/* Marquee for sliding content */}
-      <Marquee pauseOnHover={true} className="[--duration:00s]">
+      <Marquee pauseOnHover={true} className="[--duration:30s]">
         {events.map((event, index) => (
           <div key={index} className="flex gap-4">
             {/* Left Image */}

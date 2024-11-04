@@ -21,10 +21,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} antialiased min-h-screen flex flex-col justify-between bg-[#020202]`}>
+      <body
+        className={`${poppins.className} antialiased min-h-screen flex flex-col justify-between bg-[#020202]`}
+      >
         <Header />
         {/* Remove margin from the full page and apply it only after hero */}
-        <div className="w-full">{children}</div>
+        <div className="max-w-screen">{children}</div>
         <Footer />
       </body>
     </html>
