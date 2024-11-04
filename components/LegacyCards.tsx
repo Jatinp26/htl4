@@ -40,10 +40,10 @@ export default function LegacyCards() {
         {events.map((event, index) => (
           <div key={index} className="flex gap-4">
             {/* Left Image */}
-            <div className="rounded-lg overflow-hidden shadow-lg max-sm:rounded-md  relative max-sm:w-[205.5px] max-sm:h-[205.5px] w-[411px] h-[411px] flex flex-col gap-6">
+            <div className="rounded-lg overflow-hidden shadow-lg max-sm:rounded-md  relative max-sm:w-[205.5px] max-sm:h-[215.5px] w-[411px] h-[411px] flex flex-col gap-6">
               {event.title == "Chapter-1" ? (
                 <div className="flex flex-col gap-4 rounded-lg">
-                  <div className="relative w-full h-[200px] rounded-lg bg-white">
+                  <div className="relative w-full h-[215.5px] rounded-lg bg-white">
                     <Image
                       src={event.img1}
                       alt={`Event Image 1 for ${event.title}`}
@@ -81,7 +81,7 @@ export default function LegacyCards() {
             </div>
 
             {/* Right Section with Image 2 and Text */}
-            <div className="relative max-sm:w-[205.5px] max-sm:h-[205.5px] w-[411px] h-[411px] flex flex-col items-center gap-6 max-sm:gap-3">
+            <div className="relative max-sm:w-[205.5px] max-sm:h-[215.5px] w-[411px] h-[411px] flex flex-col items-center gap-6 max-sm:gap-3">
               <div className="h-1/2 w-full rounded-lg max-sm:rounded-md  overflow-hidden shadow-lg relative">
                 <Image
                   src={event.img2}
@@ -92,16 +92,16 @@ export default function LegacyCards() {
                 />
               </div>
               <div className="flex flex-col items-center justify-center w-full border-[#2c2c2c] border bg-[#121212] h-1/2 max-sm:rounded-md rounded-lg shadow-lg">
-                <h3 className="max-sm:text-2xl text-4xl font-semibold text-blue-400 text-center">
+                <h3 className="max-sm:text-xl text-4xl font-semibold text-blue-400 text-center">
                   {event.title}
                 </h3>
-                <p className="text-white max-sm:text-xs w-3/4 my-4 text-center">
+                <p className="text-white max-sm:text-xs w-5/6 my-4 text-center max-sm:my-2">
                   {event.subtitle}
                 </p>
               </div>
             </div>
             {event?.img3 && (
-              <div className="rounded-lg overflow-hidden shadow-lg max-sm:rounded-md  relative max-sm:w-[205.5px] max-sm:h-[205.5px] w-[411px] h-[411px]">
+              <div className="rounded-lg overflow-hidden shadow-lg max-sm:rounded-md  relative max-sm:w-[205.5px] max-sm:h-[215.5px] w-[411px] h-[411px]">
                 <Image
                   src={event.img3}
                   alt={`Event Image 1 for ${event.title}`}
