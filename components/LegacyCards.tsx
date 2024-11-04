@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Marquee from "@/components/magicui/marquee";
-import Image1 from "@/public/images/legacy/Image-1.webp";
-import Image2 from "@/public/images/legacy/Image-2.webp";
 
 export default function LegacyCards() {
   const events = [
