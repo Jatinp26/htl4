@@ -36,27 +36,31 @@ export default function LegacyCards() {
   return (
     <div>
       {/* Marquee for sliding content */}
-      <Marquee pauseOnHover={true} className="[--duration:30s]">
+      <Marquee pauseOnHover={true} className="[--duration:00s]">
         {events.map((event, index) => (
           <div key={index} className="flex gap-4">
             {/* Left Image */}
             <div className="rounded-lg overflow-hidden shadow-lg max-sm:rounded-md  relative max-sm:w-[205.5px] max-sm:h-[205.5px] w-[411px] h-[411px] flex flex-col gap-6">
               {event.title == "Chapter-1" ? (
-                <div className="h-full flex-col gap-6">
-                  <Image
-                    src={event.img1}
-                    alt={`Event Image 1 for ${event.title}`}
-                    className="w-full h-1/2 mb-4 aspect-video rounded-lg"
-                    width={100}
-                    height={100}
-                  />
-                  <Image
-                    src={event?.img4 || ""}
-                    alt={`Event Image 4 for ${event.title}`}
-                    className="h-1/2 w-full aspect-video rounded-lg"
-                    width={100}
-                    height={100}
-                  />
+                <div className="flex flex-col gap-4 rounded-lg">
+                  <div className="relative w-full h-[200px] rounded-lg bg-white">
+                    <Image
+                      src={event.img1}
+                      alt={`Event Image 1 for ${event.title}`}
+                      className="rounded-lg"
+                      layout="fill"
+                      objectFit="cover"
+                    />
+                  </div>
+                  <div className="relative w-full h-[200px] rounded-lg bg-white ">
+                    <Image
+                      src={event?.img4 || ""}
+                      alt={`Event Image 4 for ${event.title}`}
+                      className="rounded-lg"
+                      layout="fill"
+                      objectFit="cover"
+                    />
+                  </div>
                 </div>
               ) : (
                 <Image
