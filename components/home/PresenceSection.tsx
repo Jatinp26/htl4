@@ -75,7 +75,7 @@ export default function PresenceSection() {
                 </div>
                 <div>
                   <h2 className="text-[#19FB9B] font-semibold text-2xl">
-                    2500+
+                    2600+
                   </h2>
                   <p className="text-xs text-white">Followers</p>
                 </div>
