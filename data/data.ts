@@ -14,7 +14,10 @@ export const heroData: HeroData = {
   title: "HACK THE LEAGUE",
   tagline: "BUILD BEYOND",
   buttons: [
-    { label: "Pre-Register" },
+    { label: "Pre-Register",
+      link: "https://lu.ma/8b7l8fkz",
+      outline: true,
+    },
     {
       label: "Join Discord",
       link: "https://discord.com/invite/fxP5t2w2b9",
