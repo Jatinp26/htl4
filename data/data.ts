@@ -16,7 +16,6 @@ export const heroData: HeroData = {
   buttons: [
     { label: "Pre-Register",
       link: "https://lu.ma/8b7l8fkz",
-      outline: true,
     },
     {
       label: "Join Discord",
