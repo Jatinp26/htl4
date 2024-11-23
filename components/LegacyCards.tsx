@@ -6,7 +6,7 @@ export default function LegacyCards() {
     {
       title: "Chapter-1",
       subtitle:
-        "Where the aim for creating an impact-driven community was born!",
+        "Where the aim for creating an hope-driven community was born!",
       img1: "https://res.cloudinary.com/hack-the-league/image/upload/v1730386916/website/chapter1/1_h3vkmx.png",
       img2: "https://res.cloudinary.com/hack-the-league/image/upload/v1730386913/website/chapter1/2_bpjls8.png",
       img4: "https://res.cloudinary.com/hack-the-league/image/upload/v1730386915/website/chapter1/3_khfska.png",
