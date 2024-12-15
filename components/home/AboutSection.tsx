@@ -85,7 +85,7 @@ const AboutSection = () => {
               </div>
               <div className="flex flex-col gap-1">
                 <h2 className="text-2xl sm:text-4xl lg:text-4xl font-semibold text-[#f3ec40]">
-                  3,600+
+                  4,000+
                 </h2>
                 <h3 className="text-white text-xl sm:text-xl lg:text-2xl font-regular">
                   Developer Community
