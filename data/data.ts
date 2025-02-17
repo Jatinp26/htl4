@@ -14,8 +14,8 @@ export const heroData: HeroData = {
   title: "HACK THE LEAGUE",
   tagline: "BUILD BEYOND",
   buttons: [
-    { label: "Pre-Register",
-      link: "https://lu.ma/8b7l8fkz",
+    { label: "Register",
+      link: "https://dorahacks.io/hackathon/htl4-build-beyond/detail",
     },
     {
       label: "Join Discord",
