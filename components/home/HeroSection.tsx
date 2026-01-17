@@ -11,13 +11,13 @@ const HeroSection = () => (
     </p>
     <div className="flex flex-col">
       <h1
-        className="text-white text-5xl sm:text-7xl lg:text-[8rem] text-center"
+        className="text-white text-8xl sm:text-9xl lg:text-[10rem] text-center"
         style={{ fontFamily: "JUSTICE_LEAGUE" }}
       >
         {heroData.title}
       </h1>
       <h2
-        className="bg-gradient-text-1 bg-clip-text text-center text-transparent text-8xl sm:text-9xl lg:text-[12rem] -mt-3 lg:-mt-8"
+        className="bg-gradient-text-1 bg-clip-text text-center text-transparent text-9xl sm:text-10xl lg:text-[12rem] -mt-3 lg:-mt-9"
         style={{ fontFamily: "JUSTICE_LEAGUE" }}
       >
         {heroData.tagline}

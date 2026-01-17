@@ -4,7 +4,6 @@ import Gradient from "@/public/images/footer/Gradient.png";
 import {
   NewTwitterIcon,
   InstagramIcon,
-  DiscordIcon,
   TelegramIcon,
 } from "hugeicons-react";
 
@@ -20,7 +19,7 @@ const exploreLinks = [
   { name: "Meetups", href: "https://chapter2-htl.vercel.app/meetups.html" },
   { name: "Luma Calendar", href: "https://lu.ma/HTLCalendar" },
   {
-    name: "Sponsor Us",
+    name: "Partner with Us",
     href: "mailto:hacktheleague.legacy@gmail.com",
   },
 ];
@@ -35,11 +34,6 @@ const socialLinks = [
     Icon: InstagramIcon,
     href: "https://www.instagram.com/hack_the_league/",
     label: "Instagram",
-  },
-  {
-    Icon: DiscordIcon,
-    href: "https://discord.com/invite/fxP5t2w2b9",
-    label: "Discord",
   },
   {
     Icon: TelegramIcon,
@@ -132,7 +126,7 @@ export default function Footer() {
 
       {/* Bottom Links */}
       <div className="flex w-full flex-row max-sm:gap-6 max-sm:items-start items-center max-sm:flex-col-reverse justify-between text-xs text-gray-400 z-10">
-        <p className="text-gray-400">© 2024 HTL Legacy. All rights reserved.</p>
+        <p className="text-gray-400">© 2024 Hack The League. All rights reserved.</p>
         <div className="flex gap-4 max-sm:w-full max-sm:justify-between">
           <a
             href="#code-of-conduct"
