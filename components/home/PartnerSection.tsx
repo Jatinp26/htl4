@@ -20,11 +20,11 @@ export default function PartnerSection() {
   return (
     <Section id="partners">
       <h2 className="text-white text-center font-semibold text-2xl sm:text-4xl lg:text-4xl mb-6 sm:mb-12 lg:mb-12">
-        Supported by{" "}
+       Built on{" "}
         <span className="bg-gradient-text bg-clip-text text-transparent">
-          Partners
+        Partnerships
         </span>{" "}
-        Across the Space
+        with Industry Leaders
       </h2>
       <div className="flex flex-wrap justify-center gap-3 sm:gap-3 lg:gap-6">
         {partners.map((partner, index) => (

@@ -32,7 +32,7 @@ const AboutSection = () => {
             </div>
             <div className="flex flex-col gap-1">
               <h3 className="text-violet-600 text-xl sm:text-xl lg:text-2xl font-semibold">
-                About Hack The League
+                About Hack The League Foundation
               </h3>
               <p className="text-white text-[10px] sm:text-xs lg:text-sm ">
                 Hack The League is a vision that unifies creativity and
@@ -41,9 +41,7 @@ const AboutSection = () => {
                 hackathon but an impact layer for Web3 and AI technologies.
                 After witnessing an incredible victory of creative projects and
                 dynamic participants at HTL 1.0, 2.0, and 3.0, HTL is now
-                seeking new horizons! This season, have an even bigger
-                technically rich experience packed with powerful Web3 and AI
-                partnerships and workshops at HTL 4!
+                seeking new horizons! After 3 successful hackathon chapters, we evolved into an accelerator focused on actual mainnet deployments! HTL Foundation is that evolution. Same network, same credibility, fundamentally different approach.
               </p>
             </div>
           </div>

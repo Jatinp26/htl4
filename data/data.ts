@@ -10,13 +10,13 @@ export interface HeroData {
 }
 
 export const heroData: HeroData = {
-  subtitle: "✨ Launchpad to BUIDL & Ship!",
+  subtitle: "✨ The Accelerator That Ships!",
   title: "HACK THE LEAGUE",
   tagline: "FOUNDATION",
   buttons: [
     {
-      label: "Join Discord",
-      link: "https://discord.com/invite/fxP5t2w2b9",
+      label: "Apply Now",
+      link: "https://t.me/hacktheleague",
       outline: true,
     },
   ],
