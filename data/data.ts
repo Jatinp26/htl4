@@ -15,7 +15,7 @@ export const heroData: HeroData = {
   tagline: "FOUNDATION",
   buttons: [
     {
-      label: "Apply Now",
+      label: "Join Now",
       link: "https://t.me/hacktheleague",
       outline: true,
     },
